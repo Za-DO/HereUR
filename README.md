@@ -1,4 +1,4 @@
-# ZaDotemplate
+# HearUR
 
 # Team Za:DO
 자, 두가자!
