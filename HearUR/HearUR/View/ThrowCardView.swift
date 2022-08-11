@@ -18,8 +18,13 @@ struct ThrowCardView: View {
                     .scaledToFit()
                     .frame(height: 30)
                 Spacer()
-                Image(systemName: "rectangle.fill.on.rectangle.angled.fill")
-                    .font(.system(size: 31))
+                Button {
+                    print("저장된 카드 보기 뷰로 이동")
+                } label: {
+                    Image(systemName: "rectangle.fill.on.rectangle.angled.fill")
+                        .font(.system(size: 31))
+                }
+
             }
             .padding(EdgeInsets(top: 0, leading: 40, bottom: 27, trailing: 40))
             Image("swipeUpArrow")
